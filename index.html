@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>HTML5 APIs: Assignment 5</title>
+  </head>
+  <body>
+  <main>
+     <h3>Pet Data</h3>
+      <input type="button" name="addNewItem" id="addNewItem" value="Add New Item">
+      <input type="button" name="resetTable" id="resetTable" value="Clear Table"><br><br>
+      <div>
+      <table id="tableInfo">
+        <tr>
+          <th>Name of Owner</th>
+          <th>Type of Pet</th>
+          <th>Name of Pet</th>
+        </tr>
+        <tbody id="itemInfo"></tbody>
+         <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+      <div>
+        <form id="formSection">
+          <label>Enter Pet Info Here:</label><br>
+          Name of Owner:
+          <input type="text" name="ownerName" id="ownerName"><br><br>
+          Type of Pet:
+          <input type="text" name="petType" id="petType"><br><br>
+          Name of Pet:
+          <input type="text" name="petName" id="petName"><br><br>
+          
+          <input type="submit" name="addToTable" id="addToTable">
+          <input type="button" name="resetForm" id="resetForm" value="Clear">
+        </form> 
+      </div>
+    </main>
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+     crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/objectList.js">
+    </script>
+  </body>
+</html>

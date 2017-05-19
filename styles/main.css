@@ -1,0 +1,25 @@
+table, td {
+    border: 1px solid black;
+    margin-bottom: 3rem;
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+
+#ownerName {
+    margin: .5rem;
+7}
+
+body {
+  border: .5rem solid blue;
+  margin-right: 50rem;
+  padding-left: .5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+#formSection label {
+  font-weight: bold;
+}
+
